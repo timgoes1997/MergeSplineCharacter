@@ -1,0 +1,785 @@
+﻿Log file open, 02/08/17 11:39:46
+LogInit:Display: Running engine for game: RouteTestProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1974864525) SRandInit(1974864525).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.093405
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files/Epic Games/UE_4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50732ll)
+OCULUS: Debug: Connected to the server running version (prod = 1).1.11.0(build = 335772) feature version = 0. Client runs version (prod = 1).1.11.0(build = 335772) feature version = 0
+LogInit: Build: ++UE4+Release-4.14-CL-3249277
+LogInit: Engine Version: 4.14.3-3249277+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jan  6 2017 10:49:43
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.08-10.39.47:550][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.08-10.39.47:550][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.08-10.39.47:558][  0]LogInit: Computer: ARCADE-4
+[2017.02.08-10.39.47:558][  0]LogInit: User: Arcade4
+[2017.02.08-10.39.47:558][  0]LogInit: CPU Page size=65536, Cores=6
+[2017.02.08-10.39.47:558][  0]LogInit: High frequency timer resolution =3.320311 MHz
+[2017.02.08-10.39.47:559][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.08-10.39.47:559][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.08-10.39.47:559][  0]LogMemory: Process Physical Memory: 270.16 MB used, 270.16 MB peak
+[2017.02.08-10.39.47:559][  0]LogMemory: Process Virtual Memory: 272.34 MB used, 272.34 MB peak
+[2017.02.08-10.39.47:559][  0]LogMemory: Physical Memory: 8226.57 MB used,  8060.54 MB free, 16287.11 MB total
+[2017.02.08-10.39.47:559][  0]LogMemory: Virtual Memory: 726.54 MB used,  8060.54 MB free, 134217728.00 MB total
+[2017.02.08-10.39.47:580][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.08-10.39.48:101][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.08-10.39.48:702][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50732ll)
+[2017.02.08-10.39.48:702][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.02.08-10.39.48:702][  0]LogD3D11RHI:       8144/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.02.08-10.39.48:703][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.08-10.39.48:703][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.08-10.39.48:703][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.08-10.39.48:708][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.08-10.39.48:708][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.08-10.39.48:708][  0]LogWindows: EnumDisplayDevices:
+[2017.02.08-10.39.48:708][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.02.08-10.39.48:708][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.02.08-10.39.48:708][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.02.08-10.39.48:708][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.02.08-10.39.48:708][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.08-10.39.48:709][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.02.08-10.39.48:709][  0]LogD3D11RHI:   Driver Version: 372.90 (internal:21.21.13.7290, unified:372.90)
+[2017.02.08-10.39.48:709][  0]LogD3D11RHI:      Driver Date: 9-16-2016
+[2017.02.08-10.39.48:709][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.08-10.39.49:283][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.08-10.39.49:320][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.02.08-10.39.49:321][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Intermediate/Shaders/WorkingDirectory/13004/).
+[2017.02.08-10.39.49:321][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Arcade-4/AppData/Local/Temp/UnrealShaderWorkingDir/5D37E4C944D9A0D0DF37BDA9EB5D1AB9/'.
+[2017.02.08-10.39.49:321][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.08-10.39.50:258][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.08-10.39.50:303][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.02.08-10.39.50:358][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.02.08-10.39.50:404][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.02.08-10.39.50:457][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.02.08-10.39.50:503][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.08-10.39.50:551][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.08-10.39.50:595][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.08-10.39.50:631][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.08-10.39.50:674][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.08-10.39.50:717][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.08-10.39.50:760][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.08-10.39.50:803][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.08-10.39.50:850][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.08-10.39.50:893][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.08-10.39.50:979][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.08-10.39.50:979][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.08-10.39.51:009][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.08-10.39.51:079][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.08-10.39.51:107][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.08-10.39.51:150][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.08-10.39.51:203][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.08-10.39.51:268][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.08-10.39.51:340][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.08-10.39.51:340][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.08-10.39.51:662][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.08-10.39.51:711][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Arcade-4/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.08-10.39.51:711][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Arcade-4/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2017.02.08-10.39.51:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.08-10.39.51:711][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.08-10.39.51:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.08-10.39.51:711][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.08-10.39.51:726][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.08-10.39.51:738][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Arcade-4/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.08-10.39.51:908][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.08-10.39.51:911][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.08-10.39.52:085][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.02.08-10.39.52:120][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.02.08-10.39.52:160][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.02.08-10.39.52:160][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.02.08-10.39.52:160][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.08-10.39.52:583][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: routetestproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 770698173
+[2017.02.08-10.39.52:631][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.02.08-10.39.52:670][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.022088 seconds
+[2017.02.08-10.39.52:675][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2017.02.08-10.39.52:676][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2017.02.08-10.39.52:676][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.08-10.39.52:724][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.08-10.39.53:323][  0]LogSlate: Using Freetype 2.6.0
+[2017.02.08-10.39.53:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.08-10.39.53:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.08-10.39.53:992][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.08-10.39.54:048][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.08-10.39.54:299][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.08-10.39.54:614][  0]SourceControl: Info Source control is disabled
+[2017.02.08-10.39.54:642][  0]SourceControl: Info Source control is disabled
+[2017.02.08-10.39.54:677][  0]SourceControl: Info Source control is disabled
+[2017.02.08-10.39.54:712][  0]SourceControl: Info Source control is disabled
+[2017.02.08-10.39.55:691][  0]LogEngine: Initializing Engine...
+[2017.02.08-10.39.58:787][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.02.08-10.39.58:787][  0]LogHMD: Oculus plugin initialized. Version: 4.14.3-3249277+++UE4+Release-4.14, LibOVR: 1.11.0, SDK: 1.8.0, built Jan  6 2017, 10:50:26
+[2017.02.08-10.39.58:893][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(50732ll)
+[2017.02.08-10.39.58:989][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.08-10.39.59:010][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.08-10.39.59:030][  0]LogInit: FAudioDevice initialized.
+[2017.02.08-10.39.59:054][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Arcade-4/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2017.02.08-10.39.59:061][  0]LogInit: Texture streaming: Enabled
+[2017.02.08-10.39.59:205][  0]LogInit: Transaction tracking system initialized
+[2017.02.08-10.39.59:483][  0]BlueprintLog: New page: Editor Load
+[2017.02.08-10.40.00:255][  0]LocalizationService: Info Localization service is disabled
+[2017.02.08-10.40.00:802][  0]LogConsoleResponse:Display: 
+[2017.02.08-10.40.00:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/' took 0.01s
+[2017.02.08-10.40.00:913][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.08-10.40.00:913][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.08-10.40.01:675][  0]SourceControl: Info Source control is disabled
+[2017.02.08-10.40.01:677][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.14/FeaturePacks/StarterContent.upack)
+[2017.02.08-10.40.01:683][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.02.08-10.40.01:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.02.08-10.40.01:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.02.08-10.40.01:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.02.08-10.40.01:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.02.08-10.40.01:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.02.08-10.40.01:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.02.08-10.40.01:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.02.08-10.40.01:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.02.08-10.40.01:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.02.08-10.40.01:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.02.08-10.40.01:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.02.08-10.40.01:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.02.08-10.40.01:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.02.08-10.40.01:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.02.08-10.40.01:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.02.08-10.40.01:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.02.08-10.40.01:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.02.08-10.40.01:796][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Fire01.uasset"
+[2017.02.08-10.40.01:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.02.08-10.40.01:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.02.08-10.40.01:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.02.08-10.40.01:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Light01.uasset"
+[2017.02.08-10.40.01:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.02.08-10.40.01:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Light02.uasset"
+[2017.02.08-10.40.01:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.02.08-10.40.01:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.02.08-10.40.01:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.02.08-10.40.01:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.02.08-10.40.01:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.02.08-10.40.01:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.02.08-10.40.01:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.02.08-10.40.01:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.02.08-10.40.01:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.02.08-10.40.01:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Steam01.uasset"
+[2017.02.08-10.40.01:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.02.08-10.40.01:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.02.08-10.40.01:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.02.08-10.40.01:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.02.08-10.40.01:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.02.08-10.40.01:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.02.08-10.40.01:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.02.08-10.40.01:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.02.08-10.40.01:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.02.08-10.40.01:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.02.08-10.40.01:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.02.08-10.40.02:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.02.08-10.40.02:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.02.08-10.40.02:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.02.08-10.40.02:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.02.08-10.40.02:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.02.08-10.40.02:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.02.08-10.40.02:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.02.08-10.40.02:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.02.08-10.40.02:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.02.08-10.40.02:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Maps/StarterMap.umap"
+[2017.02.08-10.40.02:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.02.08-10.40.02:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.02.08-10.40.02:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.02.08-10.40.02:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.02.08-10.40.02:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.02.08-10.40.02:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.02.08-10.40.02:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.02.08-10.40.02:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.02.08-10.40.02:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.02.08-10.40.02:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.02.08-10.40.02:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.02.08-10.40.02:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.02.08-10.40.02:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.02.08-10.40.02:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.02.08-10.40.02:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.02.08-10.40.02:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.02.08-10.40.02:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.02.08-10.40.02:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.02.08-10.40.02:441][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.02.08-10.40.02:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.02.08-10.40.02:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.02.08-10.40.02:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.02.08-10.40.02:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.02.08-10.40.02:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.02.08-10.40.02:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.02.08-10.40.02:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.02.08-10.40.02:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.02.08-10.40.02:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.02.08-10.40.02:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.02.08-10.40.02:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.02.08-10.40.02:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.02.08-10.40.02:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.02.08-10.40.02:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.02.08-10.40.02:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.02.08-10.40.02:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.02.08-10.40.02:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.02.08-10.40.02:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.02.08-10.40.02:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.02.08-10.40.02:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.02.08-10.40.02:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.02.08-10.40.02:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.02.08-10.40.02:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.02.08-10.40.02:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.02.08-10.40.02:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.02.08-10.40.02:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.02.08-10.40.02:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.02.08-10.40.02:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.02.08-10.40.02:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.02.08-10.40.02:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.02.08-10.40.02:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.02.08-10.40.02:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.02.08-10.40.02:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.02.08-10.40.02:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.02.08-10.40.02:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.02.08-10.40.02:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.02.08-10.40.02:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.02.08-10.40.02:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.02.08-10.40.02:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.02.08-10.40.02:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.02.08-10.40.02:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.02.08-10.40.02:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.02.08-10.40.02:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.02.08-10.40.02:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.02.08-10.40.02:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.02.08-10.40.02:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Door.uasset"
+[2017.02.08-10.40.02:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.02.08-10.40.02:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.02.08-10.40.02:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.02.08-10.40.02:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.02.08-10.40.02:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.02.08-10.40.02:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.02.08-10.40.02:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.02.08-10.40.02:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.02.08-10.40.02:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.02.08-10.40.02:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.02.08-10.40.02:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.02.08-10.40.02:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.02.08-10.40.02:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.02.08-10.40.02:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.02.08-10.40.02:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.02.08-10.40.02:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.02.08-10.40.02:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.02.08-10.40.02:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.02.08-10.40.02:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.02.08-10.40.02:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.02.08-10.40.02:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.02.08-10.40.02:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.02.08-10.40.02:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.02.08-10.40.02:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.02.08-10.40.02:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.02.08-10.40.02:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.02.08-10.40.02:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.02.08-10.40.02:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.02.08-10.40.02:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.02.08-10.40.02:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.02.08-10.40.02:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.02.08-10.40.02:961][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.02.08-10.40.02:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.02.08-10.40.02:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.02.08-10.40.02:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.02.08-10.40.02:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.02.08-10.40.02:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.02.08-10.40.03:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.02.08-10.40.03:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.02.08-10.40.03:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.02.08-10.40.03:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.02.08-10.40.03:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.02.08-10.40.03:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.02.08-10.40.03:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.02.08-10.40.03:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.02.08-10.40.03:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.02.08-10.40.03:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.02.08-10.40.03:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.02.08-10.40.03:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.02.08-10.40.03:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.02.08-10.40.03:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.02.08-10.40.03:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.02.08-10.40.03:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.02.08-10.40.03:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.02.08-10.40.03:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.02.08-10.40.03:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.02.08-10.40.03:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.02.08-10.40.03:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.02.08-10.40.03:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.02.08-10.40.03:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.02.08-10.40.03:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.02.08-10.40.03:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.02.08-10.40.03:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.02.08-10.40.03:457][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.02.08-10.40.03:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.02.08-10.40.03:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.02.08-10.40.03:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.02.08-10.40.03:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.02.08-10.40.03:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.02.08-10.40.03:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.02.08-10.40.03:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.02.08-10.40.03:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.02.08-10.40.03:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.02.08-10.40.03:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.02.08-10.40.03:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.02.08-10.40.03:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.02.08-10.40.03:766][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.02.08-10.40.03:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.02.08-10.40.03:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.02.08-10.40.03:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.02.08-10.40.03:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.02.08-10.40.03:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.02.08-10.40.03:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.02.08-10.40.03:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.02.08-10.40.03:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.02.08-10.40.03:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.02.08-10.40.03:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.02.08-10.40.03:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.02.08-10.40.03:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.02.08-10.40.03:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.02.08-10.40.03:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.02.08-10.40.03:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.02.08-10.40.03:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.02.08-10.40.04:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.02.08-10.40.04:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.02.08-10.40.04:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.02.08-10.40.04:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.02.08-10.40.04:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.02.08-10.40.04:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.02.08-10.40.04:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.02.08-10.40.04:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.02.08-10.40.04:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.02.08-10.40.04:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.02.08-10.40.04:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.02.08-10.40.04:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.02.08-10.40.04:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.02.08-10.40.04:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.02.08-10.40.04:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.02.08-10.40.04:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.02.08-10.40.04:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.02.08-10.40.04:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.02.08-10.40.04:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.02.08-10.40.04:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.02.08-10.40.04:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.02.08-10.40.04:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.02.08-10.40.04:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.02.08-10.40.04:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.02.08-10.40.04:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.02.08-10.40.04:706][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.02.08-10.40.04:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.02.08-10.40.04:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.02.08-10.40.04:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.02.08-10.40.04:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.02.08-10.40.04:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.02.08-10.40.04:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.02.08-10.40.04:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.02.08-10.40.04:793][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.02.08-10.40.04:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.02.08-10.40.04:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.02.08-10.40.04:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.02.08-10.40.04:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.02.08-10.40.04:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.02.08-10.40.04:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.02.08-10.40.04:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.02.08-10.40.04:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.02.08-10.40.04:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.02.08-10.40.04:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.02.08-10.40.04:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.02.08-10.40.04:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.02.08-10.40.04:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.02.08-10.40.04:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.02.08-10.40.04:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.02.08-10.40.04:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.02.08-10.40.05:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.02.08-10.40.05:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.02.08-10.40.05:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.02.08-10.40.05:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.02.08-10.40.05:141][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2017.02.08-10.40.05:181][  0]LogSavePackage: Save=11.13ms
+[2017.02.08-10.40.05:181][  0]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/Floor_400x400293837EC4E178E555A9A54A85913166A.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.02.08-10.40.05:183][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.02.08-10.40.05:183][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.02.08-10.40.05:186][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.08-10.40.05:187][  0]LightingResults: New page: Lighting Build
+[2017.02.08-10.40.05:218][  0]MapCheck: New page: Map Check
+[2017.02.08-10.40.05:218][  0]LightingResults: New page: Lighting Build
+[2017.02.08-10.40.05:379][  0]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2017.02.08-10.40.05:511][  0]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2017.02.08-10.40.06:055][  0]LogTexture:Display: Building textures: T_TableRound_N (BC5)
+[2017.02.08-10.40.06:407][  0]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
+[2017.02.08-10.40.06:897][  0]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2017.02.08-10.40.07:217][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.02.08-10.40.07:249][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.02.08-10.40.07:257][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.02.08-10.40.07:278][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.02.08-10.40.07:293][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2017.02.08-10.40.07:298][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2017.02.08-10.40.07:370][  0]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2017.02.08-10.40.07:997][  0]LogTexture:Display: Building textures: T_Metal_Copper_D (AutoDXT)
+[2017.02.08-10.40.09:311][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.02.08-10.40.09:312][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.02.08-10.40.09:316][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.08-10.40.09:317][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.08-10.40.09:356][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.817ms to complete.
+[2017.02.08-10.40.09:356][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.170
+[2017.02.08-10.40.09:431][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.08-10.40.09:495][  0]LogCollectionManager: Loaded 0 collections in 0.001093 seconds
+[2017.02.08-10.40.09:570][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/Collections/' took 0.01s
+[2017.02.08-10.40.09:570][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Developers/Arcade4/Collections/' took 0.01s
+[2017.02.08-10.40.09:570][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Collections/' took 0.01s
+[2017.02.08-10.40.09:570][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.08-10.40.09:578][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2190 classes and 428 folders.
+[2017.02.08-10.40.09:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.08-10.40.09:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.02.08-10.40.09:609][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 13 classes and 0 folders.
+[2017.02.08-10.40.09:655][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.08-10.40.09:686][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.08-10.40.09:719][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.08-10.40.09:749][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.08-10.40.09:828][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.08-10.40.09:828][  0]LogLoad: (Engine Initialization) Total time: 24.10 seconds
+[2017.02.08-10.40.09:828][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.02.08-10.40.09:828][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.08-10.40.09:828][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.08-10.40.09:837][  0]LogOcInput: OculusInput pre-init called
+[2017.02.08-10.40.09:847][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.11.0
+[2017.02.08-10.40.09:864][  0]LogAssetRegistry: Asset discovery search completed in 17.2538 seconds
+[2017.02.08-10.40.09:864][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.02.08-10.40.09:864][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.02.08-10.40.09:946][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.08-10.40.10:069][  0]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:3).
+[2017.02.08-10.40.27:413][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.02.08-10.41.07:828][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2017.02.08-10.41.08:872][ 12]Cmd: DELETE
+[2017.02.08-10.41.08:872][ 12]Cmd: ACTOR DELETE
+[2017.02.08-10.41.08:875][ 12]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.08-10.41.08:885][ 12]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.02.08-10.41.09:333][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.08-10.41.09:439][ 74]Cmd: DELETE
+[2017.02.08-10.41.09:439][ 74]Cmd: ACTOR DELETE
+[2017.02.08-10.41.09:439][ 74]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.08-10.41.09:445][ 74]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.08-10.41.09:719][107]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.02.08-10.41.10:023][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.02.08-10.41.10:200][157]Cmd: DELETE
+[2017.02.08-10.41.10:200][157]Cmd: ACTOR DELETE
+[2017.02.08-10.41.10:201][157]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.08-10.41.10:207][157]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.08-10.41.10:789][225]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.02.08-10.41.11:102][256]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.02.08-10.41.11:509][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Statue)
+[2017.02.08-10.41.11:760][329]Cmd: DELETE
+[2017.02.08-10.41.11:760][329]Cmd: ACTOR DELETE
+[2017.02.08-10.41.11:761][329]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.08-10.41.11:768][329]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.08-10.41.12:168][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2017.02.08-10.41.12:342][393]Cmd: DELETE
+[2017.02.08-10.41.12:342][393]Cmd: ACTOR DELETE
+[2017.02.08-10.41.12:342][393]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.08-10.41.12:348][393]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.08-10.41.12:713][436]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (Starter_Background_Cue)
+[2017.02.08-10.41.12:922][456]Cmd: DELETE
+[2017.02.08-10.41.12:922][456]Cmd: ACTOR DELETE
+[2017.02.08-10.41.12:923][456]LogEditorActor: Deleted Actor: AmbientSound
+[2017.02.08-10.41.12:930][456]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.08-10.41.13:431][516]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture10)
+[2017.02.08-10.41.17:533][  4]Cmd: DELETE
+[2017.02.08-10.41.17:533][  4]Cmd: ACTOR DELETE
+[2017.02.08-10.41.17:534][  4]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.02.08-10.41.17:540][  4]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.08-10.41.17:929][ 51]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.02.08-10.41.18:521][118]Cmd: DELETE
+[2017.02.08-10.41.18:521][118]Cmd: ACTOR DELETE
+[2017.02.08-10.41.18:521][118]LogEditorActor: Deleted Actor: SkyLight
+[2017.02.08-10.41.18:527][118]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.08-10.41.18:783][149]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.02.08-10.41.18:949][166]Cmd: DELETE
+[2017.02.08-10.41.18:949][166]Cmd: ACTOR DELETE
+[2017.02.08-10.41.18:950][166]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.02.08-10.41.18:956][166]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.02.08-10.41.19:857][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
+[2017.02.08-10.41.20:048][293]Cmd: DELETE
+[2017.02.08-10.41.20:048][293]Cmd: ACTOR DELETE
+[2017.02.08-10.41.20:049][293]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.02.08-10.41.20:054][293]LogEditorActor: Deleted 1 Actors (0.006 secs)
+[2017.02.08-10.41.23:106][659]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2017.02.08-10.41.36:875][292]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
+[2017.02.08-10.41.36:878][292]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.02.08-10.41.36:896][292]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.02.08-10.41.36:914][292]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.02.08-10.41.36:936][292]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.02.08-10.41.36:957][292]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.02.08-10.41.36:986][292]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.02.08-10.41.36:999][292]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.02.08-10.41.37:014][292]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.02.08-10.41.37:029][292]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.02.08-10.41.37:047][292]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.02.08-10.41.37:063][292]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.02.08-10.41.37:082][292]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.02.08-10.41.37:102][292]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.02.08-10.41.37:104][292]LogTexture:Display: Building textures: LandscapeThumbnailWeightmap (BGRA8)
+[2017.02.08-10.41.37:105][292]LogTexture:Display: Building textures: LandscapeThumbnailHeightmap (BGRA8)
+[2017.02.08-10.41.42:696][754]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.08-10.41.42:705][754]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.42:705][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.08-10.41.42:705][754]PIE: New page: PIE session: Minimal_Default (Feb 8, 2017, 12:41:42 PM)
+[2017.02.08-10.41.42:705][754]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.02.08-10.41.42:710][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004279s)
+[2017.02.08-10.41.42:710][754]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.02.08-10.41.42:710][754]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.02.08-10.41.42:710][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005029s)
+[2017.02.08-10.41.42:741][754]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.08-10.41.42:750][754]LogInit: FAudioDevice initialized.
+[2017.02.08-10.41.42:797][754]LogLoad: Game class is 'GameModeBase'
+[2017.02.08-10.41.42:799][754]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.02.08-11.41.42
+[2017.02.08-10.41.42:799][754]LogWorld: Bringing up level for play took: 0.000753
+[2017.02.08-10.41.42:830][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.02.08-10.41.42:831][754]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.086
+[2017.02.08-10.41.42:832][754]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.46:841][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.46:876][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.46:885][232]LogActorComponent: ReregisterComponent: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0) Not currently registered. Aborting.
+[2017.02.08-10.41.54:840][182]LogTemp: Repeting last play command: Selected Viewport
+[2017.02.08-10.41.54:848][182]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.54:848][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.08-10.41.54:848][182]PIE: New page: PIE session: Minimal_Default (Feb 8, 2017, 12:41:54 PM)
+[2017.02.08-10.41.54:849][182]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.02.08-10.41.54:850][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001580s)
+[2017.02.08-10.41.54:851][182]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.02.08-10.41.54:851][182]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2017.02.08-10.41.54:851][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.002298s)
+[2017.02.08-10.41.54:873][182]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.08-10.41.54:880][182]LogInit: FAudioDevice initialized.
+[2017.02.08-10.41.54:907][182]LogLoad: Game class is 'GameModeBase'
+[2017.02.08-10.41.54:909][182]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.02.08-11.41.54
+[2017.02.08-10.41.54:909][182]LogWorld: Bringing up level for play took: 0.000693
+[2017.02.08-10.41.54:910][182]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.165
+[2017.02.08-10.41.54:910][182]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.56:890][419]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.56:920][419]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.02.08-10.41.56:929][419]LogActorComponent: ReregisterComponent: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Starter_Background_Cue_2.AudioComponent0) Not currently registered. Aborting.
+[2017.02.08-10.42.26:018][903]LogActor:Warning: VREditorButton /Engine/Transient.World_8:PersistentLevel.VREditorButton_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2017.02.08-10.47.46:109][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/RouteData" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Data/RouteData.uasset" SILENT=true
+[2017.02.08-10.47.46:115][822]LogSavePackage: Save=4.49ms
+[2017.02.08-10.47.46:115][822]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/RouteDataBA5D668E421BA4AAB29B06AA16269C87.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Data/RouteData.uasset'
+[2017.02.08-10.47.46:117][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Data/RouteData.uasset
+[2017.02.08-10.48.12:133][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/RouteData" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Data/RouteData.uasset" SILENT=true
+[2017.02.08-10.48.12:141][941]LogSavePackage: Save=3.69ms
+[2017.02.08-10.48.12:141][941]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/RouteData75290E5F475A78E6EE921A922AD016D6.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Data/RouteData.uasset'
+[2017.02.08-10.48.12:142][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/Data/RouteData.uasset
+[2017.02.08-10.48.32:941][658]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2017.02.08-10.48.37:328][114]LogRenderer: Reallocating scene render targets to support 1208x808 NumSamples 1 (Frame:55691).
+[2017.02.08-10.49.39:349][238]BlueprintLog: New page: Compile BP_Gate
+[2017.02.08-10.49.40:129][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Gate" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset" SILENT=true
+[2017.02.08-10.49.40:144][313]LogSavePackage: Save=13.85ms
+[2017.02.08-10.49.40:144][313]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/BP_Gate63CA7FF542C35009F17C55B3A4AC71EF.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset'
+[2017.02.08-10.49.40:146][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset
+[2017.02.08-10.50.25:663][719]BlueprintLog: New page: Compile BP_Gate
+[2017.02.08-10.50.26:169][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Gate" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset" SILENT=true
+[2017.02.08-10.50.26:184][769]LogSavePackage: Save=9.21ms
+[2017.02.08-10.50.26:184][769]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/BP_Gate174710DD45111E78B9E4519F91B233E2.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset'
+[2017.02.08-10.50.26:186][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset
+[2017.02.08-10.50.41:152][554]LogClass:Warning: Type mismatch in NewVar_0 of SKEL_BP_Gate_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2017.02.08-10.50.49:394][537]BlueprintLog: New page: Compile BP_Gate
+[2017.02.08-10.52.05:243][568]BlueprintLog: New page: Compile BP_Gate
+[2017.02.08-10.52.05:952][642]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Gate" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset" SILENT=true
+[2017.02.08-10.52.05:966][642]LogSavePackage: Save=11.49ms
+[2017.02.08-10.52.05:966][642]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/BP_GateB8187D1D4D44F0C699F3028727537CAB.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset'
+[2017.02.08-10.52.05:968][642]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset
+[2017.02.08-10.52.30:282][539]LogSavePackage: Save=85.06ms
+[2017.02.08-10.52.30:282][539]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/Minimal_Default_Auto1C4AD68A144E7134229A050AB365952C4.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2017.02.08-10.52.30:283][539]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2017.02.08-10.52.30:286][539]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.108
+[2017.02.08-10.52.30:286][539]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.108
+[2017.02.08-10.53.17:995][205]BlueprintLog: New page: Compile BP_Gate
+[2017.02.08-10.53.19:433][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Gate" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset" SILENT=true
+[2017.02.08-10.53.19:447][361]LogSavePackage: Save=12.45ms
+[2017.02.08-10.53.19:447][361]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/BP_Gate405A0A004D06EF93934FB6911E43E54C.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset'
+[2017.02.08-10.53.19:450][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_Gate.uasset
+[2017.02.08-10.54.15:150][672]BlueprintLog: New page: Compile BP_RouteGenerator
+[2017.02.08-10.57.04:041][879]BlueprintLog: New page: Compile BP_RouteGenerator
+[2017.02.08-10.57.04:597][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_RouteGenerator" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_RouteGenerator.uasset" SILENT=true
+[2017.02.08-10.57.04:613][927]LogSavePackage: Save=13.28ms
+[2017.02.08-10.57.04:613][927]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/BP_RouteGenerator6D1EB21C43290E0B0E6E8B9305AA7F95.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_RouteGenerator.uasset'
+[2017.02.08-10.57.04:614][927]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_RouteGenerator.uasset
+[2017.02.08-10.57.43:164][516]BlueprintLog: New page: Compile BP_RouteGenerator
+[2017.02.08-10.57.43:809][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_RouteGenerator" FILE="../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_RouteGenerator.uasset" SILENT=true
+[2017.02.08-10.57.43:829][582]LogSavePackage: Save=12.42ms
+[2017.02.08-10.57.43:829][582]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/BP_RouteGenerator9FEE1ED34327A4063881D398C3E4BEA6.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_RouteGenerator.uasset'
+[2017.02.08-10.57.43:831][582]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Content/BluePrints/BP_RouteGenerator.uasset
+[2017.02.08-10.59.19:966][924]LogClass:Warning: Type mismatch in RouteDataArray of SKEL_BP_RouteGenerator_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2017.02.08-10.59.29:755][ 90]LogEditorTransaction: Undo Add Variable
+[2017.02.08-11.02.30:191][628]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.015
+[2017.02.08-11.02.30:193][628]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/BP_RouteGenerator] ([1] browsable assets)...
+[2017.02.08-11.02.30:193][628]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/BP_RouteGenerator]
+[2017.02.08-11.02.30:209][628]LogSavePackage: Save=14.42ms
+[2017.02.08-11.02.30:209][628]LogSavePackage: Moving '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/BP_RouteGenerator_Auto2DA905B6A47F5518CEC81DD96BC7CFBF3.tmp' to '../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/Autosaves/Game/BluePrints/BP_RouteGenerator_Auto2.uasset'
+[2017.02.08-11.02.30:209][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Arcade-4/Documents/Unreal Projects/RouteTestProject/Saved/Autosaves/Game/BluePrints/BP_RouteGenerator_Auto2.uasset
+[2017.02.08-11.02.30:209][628]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.02.08-11.07.07:381][479]LogD3D11RHI:Error: Result failed 
+ at D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:275 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_REMOVED
+[2017.02.08-11.07.07:383][479]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.02.08-11.07.08:975][479]LogCrashTracker: 
+
+
+[2017.02.08-11.07.08:989][479]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.02.08-11.07.08:989][479]LogCrashTracker: 
+
+
+[2017.02.08-11.07.08:989][479]LogWindows:Error: === Critical error: ===
+[2017.02.08-11.07.08:989][479]LogWindows:Error: 
+[2017.02.08-11.07.08:989][479]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 791] 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: Rendering thread exception:
+[2017.02.08-11.07.08:990][479]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 176] 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0005 - 'REMOVED')
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.08:990][479]LogWindows:Error: 
+[2017.02.08-11.07.15:065][479]OCULUS: Debug: [Client] Disconnected
+[2017.02.08-11.07.15:065][479]LogExit: Executing StaticShutdownAfterError
+[2017.02.08-11.07.15:070][479]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.02.08-11.07.15:070][479]Log file closed, 02/08/17 12:07:15
